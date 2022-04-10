@@ -5,9 +5,9 @@
 
 
 n = gets.chomp.to_i
-arr = Array.new(n)   #n.times { |i| arr[i] = gets.to_i }  #ブロックの冒頭に |i| と書くと、「いま何回目のループか」が i に順々に代入される。
+arr = Array.new(n)
 
-n.times do |i|
+n.times do |i|         #n.times { |i| arr[i] = gets.to_i }  #ブロックの冒頭に |i| と書くと、「いま何回目のループか」が i に順々に代入される。
     arr[i] = gets.to_i
 end
 
